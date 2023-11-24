@@ -12,7 +12,7 @@ let hasPromotion;
 hasPromotion =
   (lastMonthPaidMoreThan4000 &&
     isWeekday &&
-    hasBoughtProductFromITCategory &&
+    !hasBoughtProductFromITCategory &&
     !hasAttendedDiscountEvent) ||
   isPlatinum;
 
